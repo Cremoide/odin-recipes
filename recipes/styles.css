@@ -1,5 +1,6 @@
 * {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
 }
 
 body {
@@ -15,17 +16,23 @@ div {
 }
 
 img {
+    display: block;
+    margin-left: auto;
     height: auto;
     max-width: 300px;
 }
 
-p, h1, h3 {
-    color: whitesmoke;
+h1, h3 {
+    font-size: large ;
+}
+
+p {
+    font-size: small;
 }
 
 ul, ol {
     text-align: left;
-    color: whitesmoke;
+    font-size: small;
 }
 
 a:link {
@@ -34,4 +41,8 @@ a:link {
 
 a:visited {
     color: grey;
+}
+
+.recipe {
+    display: inline-block;
 }
