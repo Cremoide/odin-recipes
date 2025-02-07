@@ -2,6 +2,13 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+div {
+    padding: 8px;
+    border: 2px dotted gray;
+    margin-bottom: 10px;
+    display: block;
+}
+
 body {
     background-color: rgb(30, 30, 30);
     margin: 5%;

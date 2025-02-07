@@ -4,11 +4,19 @@
 
 body {
     background-color: rgb(30, 30, 30);
-    margin: 5%;
+    margin: 2rem;
+}
+
+div {
+    padding: 8px;
+    border: 2px dotted gray;
+    margin-bottom: 10px;
+    display: block;
 }
 
 img {
-    position: center;
+    height: auto;
+    max-width: 300px;
 }
 
 p, h1, h3 {
